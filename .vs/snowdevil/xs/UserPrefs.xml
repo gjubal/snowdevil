@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{2A56AC6A-66AA-4642-873A-7D2E6F7F24F2}|Default">
+  <MonoDevelop.Ide.ItemProperties.snowdevil PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="snowdevil/Startup.cs">
+    <Files>
+      <File FileName="snowdevil/Startup.cs" Line="34" Column="34" />
+      <File FileName="snowdevil/Views/Product/List.cshtml" Line="10" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="snowdevil" expanded="True">
+            <Node name="snowdevil" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
