@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NwWHqC3tgr56Sn9Pie1WMCFHpqXJlVzek3K60KmOxGD2qkzz4hLDbHxPbT5JWLkB32KMTjn5u9uq5eQ0lwsbLQ==",
+  "dgSpecHash": "IQmgdi7YJhXwinInHTz2sMGBTLcn55ISK1PQbiKP8FhqXQ2McBoPOFRZgdGy/d6K6ujnwlvUlWbWC/S/sVEuYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gabriel Silva\\Source\\Repos\\gjubal\\snowdevil\\snowdevil\\snowdevil.csproj",
+  "projectFilePath": "C:\\Users\\Gabriel Silva\\source\\repos\\gjubal\\snowdevil\\snowdevil\\snowdevil.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gabriel Silva\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Gabriel Silva\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",

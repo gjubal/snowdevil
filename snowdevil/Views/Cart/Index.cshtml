@@ -40,7 +40,7 @@
                         </div>
                         <div style="padding: 20px;">
                             <h1 class="title">@Model.Cart.ComputeTotalValue().ToString("c")</h1>
-                            <button class="button is-primary">Buy</button>
+                            <a class="button is-info" asp-action="Checkout" asp-controller="Order">Checkout</a> 
                         </div>
                     </div>
                 </div>

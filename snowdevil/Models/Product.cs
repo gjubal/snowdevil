@@ -13,5 +13,6 @@ namespace snowdevil.Models
         public double Price { get; set; }
         public string Category { get; set; }
         public string ProductUrl { get; set; }
+        public object Lines { get; internal set; }
     }
 }

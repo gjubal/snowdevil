@@ -2,6 +2,8 @@
 @model ProductsListViewModel
 
 <section>
+    <div page-model="@Model.PagingInfo" page-action="List" page-classes-enabled="true" page-class-selected="button is-info is-light" page-url-category="@Model.CurrentCategory"></div>
+
     <div class="container">
         <div class="columns">
             <div class="column "></div>
@@ -22,7 +24,6 @@
 
 </section>
 
-<div page-model="@Model.PagingInfo" page-action="List" page-classes-enabled="true" page-class-selected="button is-info is-light" page-url-category="@Model.CurrentCategory"></div>
 
 
 

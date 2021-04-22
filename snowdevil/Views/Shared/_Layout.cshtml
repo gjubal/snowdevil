@@ -201,9 +201,22 @@
                         <div class="navbar-item">
                             <a href="/"><i class="fa fa-star"></i> Home</a>
                         </div>
-                        
+
                         <div class="navbar-item">
-                            @await Component.InvokeAsync("CartSummary") 
+                            <a href="/faq"><i class="fas fa-question-circle"></i> FAQ</a>
+                        </div>
+
+                        <div class="navbar-item">
+                            <a href="/about-us"><i class="fas fa-users"></i> About Us</a>
+                        </div>
+
+                        <div class="navbar-item">
+                            <a href="/shipping"><i class="fas fa-truck"></i> Shipping</a>
+                        </div>
+
+
+                        <div class="navbar-item">
+                            @await Component.InvokeAsync("CartSummary")
                         </div>
                     </div>
                 </div>

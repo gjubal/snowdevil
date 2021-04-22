@@ -45,6 +45,24 @@ namespace snowdevil
             {
 
                 routes.MapRoute(
+                    name: null,
+                    template: "faq/",
+                    defaults: new { controller = "FAQ", action = "Index"}
+                    );
+
+                routes.MapRoute(
+                    name: null,
+                    template: "about-us/",
+                    defaults: new {controller = "Store", action = "Index"}
+                    );
+
+                routes.MapRoute(
+                    name: null,
+                    template: "shipping/",
+                    defaults: new { controller = "Store", action = "ShippingIndex" }
+                    );
+
+                routes.MapRoute(
                     name: null, 
                     template: "{category}/Page{page:int}", 
                     defaults: new { controller = "Product", action = "List" }
@@ -72,6 +90,7 @@ namespace snowdevil
                     name: null, 
                     template: "{controller}/{action}/{id?}"
                     );
+                
             });
         }
     }

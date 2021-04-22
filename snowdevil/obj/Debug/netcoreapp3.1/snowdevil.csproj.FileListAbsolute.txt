@@ -111,3 +111,7 @@ C:\Users\Gabriel Silva\Source\Repos\gjubal\snowdevil\snowdevil\bin\Debug\netcore
 C:\Users\Gabriel Silva\Source\Repos\gjubal\snowdevil\snowdevil\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Index.cshtml.g.cs
 C:\Users\Gabriel Silva\Source\Repos\gjubal\snowdevil\snowdevil\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CartSummary\Default.cshtml.g.cs
 C:\Users\Gabriel Silva\Source\Repos\gjubal\snowdevil\snowdevil\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\NavigationMenu\Default.cshtml.g.cs
+C:\Users\Gabriel Silva\source\repos\gjubal\snowdevil\snowdevil\obj\Debug\netcoreapp3.1\Razor\Views\Store\Index.cshtml.g.cs
+C:\Users\Gabriel Silva\source\repos\gjubal\snowdevil\snowdevil\obj\Debug\netcoreapp3.1\Razor\Views\FAQ\Index.cshtml.g.cs
+C:\Users\Gabriel Silva\source\repos\gjubal\snowdevil\snowdevil\obj\Debug\netcoreapp3.1\Razor\Views\Order\Checkout.cshtml.g.cs
+C:\Users\Gabriel Silva\source\repos\gjubal\snowdevil\snowdevil\obj\Debug\netcoreapp3.1\Razor\Views\Store\ShippingIndex.cshtml.g.cs

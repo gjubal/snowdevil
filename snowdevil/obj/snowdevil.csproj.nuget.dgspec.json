@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabriel Silva\\Source\\Repos\\gjubal\\snowdevil\\snowdevil\\snowdevil.csproj": {}
+    "C:\\Users\\Gabriel Silva\\source\\repos\\gjubal\\snowdevil\\snowdevil\\snowdevil.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabriel Silva\\Source\\Repos\\gjubal\\snowdevil\\snowdevil\\snowdevil.csproj": {
+    "C:\\Users\\Gabriel Silva\\source\\repos\\gjubal\\snowdevil\\snowdevil\\snowdevil.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriel Silva\\Source\\Repos\\gjubal\\snowdevil\\snowdevil\\snowdevil.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel Silva\\source\\repos\\gjubal\\snowdevil\\snowdevil\\snowdevil.csproj",
         "projectName": "snowdevil",
-        "projectPath": "C:\\Users\\Gabriel Silva\\Source\\Repos\\gjubal\\snowdevil\\snowdevil\\snowdevil.csproj",
+        "projectPath": "C:\\Users\\Gabriel Silva\\source\\repos\\gjubal\\snowdevil\\snowdevil\\snowdevil.csproj",
         "packagesPath": "C:\\Users\\Gabriel Silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriel Silva\\Source\\Repos\\gjubal\\snowdevil\\snowdevil\\obj\\",
+        "outputPath": "C:\\Users\\Gabriel Silva\\source\\repos\\gjubal\\snowdevil\\snowdevil\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gabriel Silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
