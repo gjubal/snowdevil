@@ -1,9 +1,28 @@
 ﻿@using snowdevil.Models.ViewModels
 @model ProductsListViewModel
-@foreach (var p in Model.Products)
-{
-    @Html.Partial("ProductSummary", p)
-} 
 
-<div page-model="@Model.PagingInfo" page-action="List" page-classes-enabled="true" page-class="button" page-class-normal="is-light" page-class-selected="is-info is-light" page-url-category="@Model.CurrentCategory"></div>
+<section>
+    <div class="container">
+        <div class="columns">
+            <div class="column "></div>
+            <div class="column is-four-fifths">
+                <div>
+                    <h2 class="title text-center">Featured Items</h2>
+                    <div class="columns products">
+                        @foreach (var p in Model.Products)
+                        {
+                            @Html.Partial("ProductSummary", p)
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="column "></div>
+        </div>
+    </div>
+
+</section>
+
+<div page-model="@Model.PagingInfo" page-action="List" page-classes-enabled="true" page-class-selected="button is-info is-light" page-url-category="@Model.CurrentCategory"></div>
+
+
 

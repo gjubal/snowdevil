@@ -20,7 +20,7 @@
                                     @((line.Product.Price * line.Quantity).ToString("c"))
                                 </div>
                                 <div class="remove">
-                                    <form asp-action="RemoveFromCart" method="post">
+                                    <form asp-action="RemoveFromCart" asp-controller="Cart" method="post">
                                         <input hidden value="@line.Product.ProductID" name="ProductId" />
                                         <input hidden value="@Model.ReturnUrl" name="returnUrl" />
                                         <button type="submit" class="button is-danger">
@@ -38,8 +38,10 @@
                         <div class="message-header">
                             Total
                         </div>
-                        <h1 class="title">@Model.Cart.ComputeTotalValue().ToString("c")</h1>
-                        <button class="button is-primary">Buy</button>
+                        <div style="padding: 20px;">
+                            <h1 class="title">@Model.Cart.ComputeTotalValue().ToString("c")</h1>
+                            <button class="button is-primary">Buy</button>
+                        </div>
                     </div>
                 </div>
             <div class="column"></div>

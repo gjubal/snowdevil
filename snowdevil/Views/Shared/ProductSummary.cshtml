@@ -1,33 +1,19 @@
 ﻿@model Product
-<section>
-    <div class="container">
-        <div class="columns">
-            <div class="column "></div>
-            <div class="column is-four-fifths">
-                <div>
-                    <h2 class="title text-center">Featured Items</h2>
-                    <div class="columns products">
-                        <div class="column is-one-quarter">
-                            <div class="card product-card">
-                                <div class="card-content">
-                                    <h3 class="subtitle">@Model.Name</h3>
-                                    <h5>@Model.Price.ToString("c")</h5>
-                                </div>
-                                <footer class="card-footer">
-                                    <form id="@Model.ProductID" asp-action="AddToCart" asp-controller="Cart" method="post">
-                                        <input hidden asp-for="@Model.ProductID" />
-                                        <input hidden name="returnUrl" value="@ViewContext.HttpContext.Request.PathAndQuery()" />
-                                        <button type="submit" class="button has-icon is-inverted">
-                                            <i class="fa fa-shopping-cart"></i> Add to cart
-                                        </button>
-                                    </form>
-                                </footer>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="column "></div>
+<div class="column is-one-quarter">
+    <div class="card product-card">
+        <div class="card-content">
+            <h3 class="subtitle">@Model.Name</h3>
+            <img src="@Model.ProductUrl" alt="@Model.Name" width="400" height="400" />  
+            <h5>@Model.Price.ToString("c")</h5>
         </div>
+        <footer class="card-footer">
+            <form id="@Model.ProductID" asp-action="AddToCart" asp-controller="Cart" method="post">
+                <input hidden asp-for="@Model.ProductID" />
+                <input hidden name="returnUrl" value="@ViewContext.HttpContext.Request.PathAndQuery()" />
+                <button type="submit" class="button has-icon is-inverted">
+                    <i class="fa fa-shopping-cart"></i> Add to cart
+                </button>
+            </form>
+        </footer>
     </div>
-</section>
+</div>
