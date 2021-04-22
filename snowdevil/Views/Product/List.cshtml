@@ -1,10 +1,9 @@
-﻿@using snowdevil.Models
-@model IEnumerable<Product>
-@foreach (var p in Model)
+﻿@using snowdevil.Models.ViewModels
+@model ProductsListViewModel
+@foreach (var p in Model.Products)
 {
-    <div>
-        <h3>@p.Name</h3>
-        @p.Description
-        <h4>$@p.Price.ToString("c")</h4>
-    </div>
+    @Html.Partial("ProductSummary", p)
 } 
+
+<div page-model="@Model.PagingInfo" page-action="List" page-classes-enabled="true" page-class="button" page-class-normal="is-light" page-class-selected="is-info is-light" page-url-category="@Model.CurrentCategory"></div>
+

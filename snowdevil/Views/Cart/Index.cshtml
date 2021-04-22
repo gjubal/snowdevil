@@ -1,0 +1,48 @@
+﻿@using snowdevil.Models.ViewModels
+@model CartIndexViewModel
+
+
+    <div id="cart" class="container">
+        <div class="columns">
+            <div class="column"></div>
+            <div class="column is-four-fifths">
+                <h3 class="subtitle"><b>Shopping Cart</b></h3>
+                @foreach (var line in Model.Cart.Lines)
+                {
+                    <div>
+                        <div class="cart-item message">
+                            <h3 class="subtitle">@line.Product.Name</h3>
+                            <div class="cart-right">
+                                <div>
+                                    @line.Product.Price.ToString("c") X @line.Quantity =
+                                </div>
+                                <div class="price is-size-4">
+                                    @((line.Product.Price * line.Quantity).ToString("c"))
+                                </div>
+                                <div class="remove">
+                                    <form asp-action="RemoveFromCart" method="post">
+                                        <input hidden value="@line.Product.ProductID" name="ProductId" />
+                                        <input hidden value="@Model.ReturnUrl" name="returnUrl" />
+                                        <button type="submit" class="button is-danger">
+                                            <span class="icon is-small">
+                                                <i class="fas fa-times"></i>
+                                            </span>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 }
+                    <div class="total message is-info">
+                        <div class="message-header">
+                            Total
+                        </div>
+                        <h1 class="title">@Model.Cart.ComputeTotalValue().ToString("c")</h1>
+                        <button class="button is-primary">Buy</button>
+                    </div>
+                </div>
+            <div class="column"></div>
+        </div>
+    </div>
+}
